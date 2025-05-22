@@ -4,7 +4,7 @@
 }
 
 #about {
-    text-indent: 2em;
+    text-indent: 1em;
 }
 
 .summary {
@@ -14,11 +14,17 @@
     margin-bottom: 0em;
     padding: 0.5em 1em;
     border-radius: 4em;
-    border: 1px solid navy;
+    border: 4px navy;
+    border-style: inset;
     background-color: rgb(34,193,195);
     color: black;
 }
 
 #footer {
-    border: ;
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px skyblue;
+    border-style: solid;
 }
