@@ -12,7 +12,7 @@ let kon = parseInt(prompt("Pilihan Konversi = ")) ;
 if (kon > 6){
     console.log("error");
 } else if (kon = 1){
-    console.log(suhu + 273.15);
+    console.log((9/5 * suhu) + 32 );
 } else if (kon = 2){
     console.log(suhu + 273.15);
 } else if (kon = 3){
