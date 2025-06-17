@@ -14,7 +14,7 @@ $kon = readline("Pilihan Konversi = ");
 if ($kon > 6){
     printf("error");
 } else if ($kon == 1){
-    printf($suhu + 273.15);
+    printf((9/5 * $suhu) + 32 );
 } else if ($kon == 2){
     printf($suhu + 273.15);
 } else if ($kon == 3){
