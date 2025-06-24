@@ -1,7 +1,7 @@
-let angka = parseInt(prompt("Contoh Angka= ")) ;
 choice = "y"
 
 while(true) {
+    let angka = parseInt(prompt("Contoh Angka= ")) ;
     if (choice == "y") {
         console.log(angka);
         if (angka % 2 == 0){
