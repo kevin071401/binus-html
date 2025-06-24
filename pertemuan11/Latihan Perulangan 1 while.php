@@ -1,8 +1,8 @@
 <?php
-$angka = readline("Contoh Angka ");
 $choice = "y";
 
 while (true) {
+    $angka = readline("Contoh Angka ");
     if ($choice == "y") {
         echo($angka);echo("\n");
         if ($angka % 2 == 0) {
