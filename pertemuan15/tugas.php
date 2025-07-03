@@ -61,10 +61,10 @@ f_judul();echo("\n");
 foreach($id as $post){
     $username = readline ("Username / email : ");
     $password = readline ("Password : ");
-    if ((($username == $post["username"]) || ($username == $post["email"])) && ($password == $post["password"])) {
-        echo("login berhasil\n");
+    if ((($username != $post["username"]) || ($username != $post["email"])) && ($password != $post["password"])) {
+        echo("username atau password anda masukkan salah\n");
     } else {
-        echo("username atau password anda masukkan salah");
+        echo("login berhasil\n");
         break;
     }
 }
